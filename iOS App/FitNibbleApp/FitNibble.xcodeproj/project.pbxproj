@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C47C484267803E000192650 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47C483267803E000192650 /* SetupView.swift */; };
+		5CC0E7DF266D70CA005CA111 /* BLECardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0E7DE266D70CA005CA111 /* BLECardView.swift */; };
+		5CC0E7EB266D8233005CA111 /* ConnDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0E7EA266D8233005CA111 /* ConnDetailView.swift */; };
+		5CC0E7FA266DD046005CA111 /* ScanningHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0E7F9266DD046005CA111 /* ScanningHeaderView.swift */; };
+		5CC294BB2665DE7600E8E123 /* FitNibbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC294BA2665DE7600E8E123 /* FitNibbleApp.swift */; };
+		5CC294BF2665DE7900E8E123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC294BE2665DE7900E8E123 /* Assets.xcassets */; };
+		5CC294C22665DE7900E8E123 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC294C12665DE7900E8E123 /* Preview Assets.xcassets */; };
+		5CC294CD2665E77D00E8E123 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC294CC2665E77D00E8E123 /* HomePageView.swift */; };
+		5CC294D02665E7E700E8E123 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC294CF2665E7E700E8E123 /* NotificationManager.swift */; };
+		5CC294D52666851400E8E123 /* ReminderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC294D42666851400E8E123 /* ReminderCardView.swift */; };
+		5CC294D926669AE500E8E123 /* CreateNewReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC294D826669AE500E8E123 /* CreateNewReminderView.swift */; };
+		5CC294E626689D8B00E8E123 /* JournalConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC294E526689D8B00E8E123 /* JournalConfirmationView.swift */; };
+		5CC294E926694E5600E8E123 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC294E826694E5600E8E123 /* ActivityManager.swift */; };
+		5CFF5A4826939D4800D029C5 /* BLEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF5A4726939D4800D029C5 /* BLEController.swift */; };
+		ABCB92D38EFB87F7F9F92530 /* Pods_FitNibble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D60B3B47517F32D6713071 /* Pods_FitNibble.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		115CFAE1EC7DDA7FAB4E727A /* Pods-FitNibble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitNibble.release.xcconfig"; path = "Target Support Files/Pods-FitNibble/Pods-FitNibble.release.xcconfig"; sourceTree = "<group>"; };
+		5C47C483267803E000192650 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		5CC0E7DE266D70CA005CA111 /* BLECardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLECardView.swift; sourceTree = "<group>"; };
+		5CC0E7EA266D8233005CA111 /* ConnDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnDetailView.swift; sourceTree = "<group>"; };
+		5CC0E7F9266DD046005CA111 /* ScanningHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningHeaderView.swift; sourceTree = "<group>"; };
+		5CC294B72665DE7600E8E123 /* FitNibble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitNibble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC294BA2665DE7600E8E123 /* FitNibbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitNibbleApp.swift; sourceTree = "<group>"; };
+		5CC294BE2665DE7900E8E123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CC294C12665DE7900E8E123 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CC294C32665DE7900E8E123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC294CC2665E77D00E8E123 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		5CC294CF2665E7E700E8E123 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		5CC294D42666851400E8E123 /* ReminderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCardView.swift; sourceTree = "<group>"; };
+		5CC294D826669AE500E8E123 /* CreateNewReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewReminderView.swift; sourceTree = "<group>"; };
+		5CC294E526689D8B00E8E123 /* JournalConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalConfirmationView.swift; sourceTree = "<group>"; };
+		5CC294E826694E5600E8E123 /* ActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
+		5CFF5A4726939D4800D029C5 /* BLEController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEController.swift; sourceTree = "<group>"; };
+		79ADD758B1F31E67F81709E1 /* Pods-FitNibble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitNibble.debug.xcconfig"; path = "Target Support Files/Pods-FitNibble/Pods-FitNibble.debug.xcconfig"; sourceTree = "<group>"; };
+		F9D60B3B47517F32D6713071 /* Pods_FitNibble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitNibble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CC294B42665DE7600E8E123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCB92D38EFB87F7F9F92530 /* Pods_FitNibble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CC0E7E1266D7C67005CA111 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5CC294CF2665E7E700E8E123 /* NotificationManager.swift */,
+				5CC294E826694E5600E8E123 /* ActivityManager.swift */,
+				5CFF5A4726939D4800D029C5 /* BLEController.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5CC294AE2665DE7600E8E123 = {
+			isa = PBXGroup;
+			children = (
+				5CC294B92665DE7600E8E123 /* FitNibble */,
+				5CC294B82665DE7600E8E123 /* Products */,
+				E9A1A60FE5297C1501D3A2DC /* Pods */,
+				67A1FB180D18F63EA3BF7D0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CC294B82665DE7600E8E123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC294B72665DE7600E8E123 /* FitNibble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CC294B92665DE7600E8E123 /* FitNibble */ = {
+			isa = PBXGroup;
+			children = (
+				5CC294BA2665DE7600E8E123 /* FitNibbleApp.swift */,
+				5CC0E7E1266D7C67005CA111 /* Managers */,
+				5CFF5A4626939BD800D029C5 /* UI */,
+				5CC294BE2665DE7900E8E123 /* Assets.xcassets */,
+				5CC294C32665DE7900E8E123 /* Info.plist */,
+				5CC294C02665DE7900E8E123 /* Preview Content */,
+			);
+			path = FitNibble;
+			sourceTree = "<group>";
+		};
+		5CC294C02665DE7900E8E123 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5CC294C12665DE7900E8E123 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CFF5A4626939BD800D029C5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5CC294CC2665E77D00E8E123 /* HomePageView.swift */,
+				5CC0E7F9266DD046005CA111 /* ScanningHeaderView.swift */,
+				5CC0E7DE266D70CA005CA111 /* BLECardView.swift */,
+				5CC0E7EA266D8233005CA111 /* ConnDetailView.swift */,
+				5CC294D42666851400E8E123 /* ReminderCardView.swift */,
+				5CC294D826669AE500E8E123 /* CreateNewReminderView.swift */,
+				5C47C483267803E000192650 /* SetupView.swift */,
+				5CC294E526689D8B00E8E123 /* JournalConfirmationView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		67A1FB180D18F63EA3BF7D0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9D60B3B47517F32D6713071 /* Pods_FitNibble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9A1A60FE5297C1501D3A2DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79ADD758B1F31E67F81709E1 /* Pods-FitNibble.debug.xcconfig */,
+				115CFAE1EC7DDA7FAB4E727A /* Pods-FitNibble.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CC294B62665DE7600E8E123 /* FitNibble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC294C62665DE7900E8E123 /* Build configuration list for PBXNativeTarget "FitNibble" */;
+			buildPhases = (
+				0C50A82F96576E40C391C4CE /* [CP] Check Pods Manifest.lock */,
+				5CC294B32665DE7600E8E123 /* Sources */,
+				5CC294B42665DE7600E8E123 /* Frameworks */,
+				5CC294B52665DE7600E8E123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitNibble;
+			productName = FitByteTrial;
+			productReference = 5CC294B72665DE7600E8E123 /* FitNibble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC294AF2665DE7600E8E123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5CC294B62665DE7600E8E123 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5CC294B22665DE7600E8E123 /* Build configuration list for PBXProject "FitNibble" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CC294AE2665DE7600E8E123;
+			productRefGroup = 5CC294B82665DE7600E8E123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CC294B62665DE7600E8E123 /* FitNibble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC294B52665DE7600E8E123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC294C22665DE7900E8E123 /* Preview Assets.xcassets in Resources */,
+				5CC294BF2665DE7900E8E123 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C50A82F96576E40C391C4CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitNibble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC294B32665DE7600E8E123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC294CD2665E77D00E8E123 /* HomePageView.swift in Sources */,
+				5CC0E7DF266D70CA005CA111 /* BLECardView.swift in Sources */,
+				5CFF5A4826939D4800D029C5 /* BLEController.swift in Sources */,
+				5CC294E926694E5600E8E123 /* ActivityManager.swift in Sources */,
+				5C47C484267803E000192650 /* SetupView.swift in Sources */,
+				5CC294D926669AE500E8E123 /* CreateNewReminderView.swift in Sources */,
+				5CC294D52666851400E8E123 /* ReminderCardView.swift in Sources */,
+				5CC0E7FA266DD046005CA111 /* ScanningHeaderView.swift in Sources */,
+				5CC294D02665E7E700E8E123 /* NotificationManager.swift in Sources */,
+				5CC0E7EB266D8233005CA111 /* ConnDetailView.swift in Sources */,
+				5CC294BB2665DE7600E8E123 /* FitNibbleApp.swift in Sources */,
+				5CC294E626689D8B00E8E123 /* JournalConfirmationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CC294C42665DE7900E8E123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CC294C52665DE7900E8E123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CC294C72665DE7900E8E123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79ADD758B1F31E67F81709E1 /* Pods-FitNibble.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitNibble/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FitNibble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wearables.FitNibble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CC294C82665DE7900E8E123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 115CFAE1EC7DDA7FAB4E727A /* Pods-FitNibble.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitNibble/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FitNibble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wearables.FitNibble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CC294B22665DE7600E8E123 /* Build configuration list for PBXProject "FitNibble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC294C42665DE7900E8E123 /* Debug */,
+				5CC294C52665DE7900E8E123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC294C62665DE7900E8E123 /* Build configuration list for PBXNativeTarget "FitNibble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC294C72665DE7900E8E123 /* Debug */,
+				5CC294C82665DE7900E8E123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CC294AF2665DE7600E8E123 /* Project object */;
+}

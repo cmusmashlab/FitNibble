@@ -1,0 +1,15 @@
+drinking
+drinking_talking
+drinking_walking
+drinking_walking_talking
+eating
+eating_drinking
+eating_drinking_talking
+eating_talking
+eating_walking
+eating_walking_talking
+none
+silent
+talking
+walking
+walking_talking
